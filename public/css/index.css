@@ -111,17 +111,14 @@
     transform: translateZ(40px) rotate3d(2, 3, 3, 45deg);
 }
 
-.task15 {
-    transition: transform 1s ease-in-out;
+  
+  .task15 {
+    transform: matrix(1, 1, 1, 1);
+    transition: all 1s ease-out;
   }
   
   .task15:hover {
-    transform: matrix3d(
-      0.4, 0, 0, 0,
-      0, 0.4, 0, 0,
-      0, 0, 0.4, 0,
-      1, 1, 1, 1
-    );
+    transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
   }
   
 
